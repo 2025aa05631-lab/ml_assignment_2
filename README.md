@@ -4,7 +4,7 @@ GitHub Repository contain:
 git url: https://github.com/2025aa05631-lab/ml_assignment_2
 Files:
 ml_assignment_2/
-|--ml_assignment_2
+|--train_models.py
 |--breast-cancer.csv
 |--app_breastCancer.py
 |--requirements.txt
