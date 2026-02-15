@@ -1,4 +1,36 @@
 **************************************************************
+GitHub Repository contain:
+**************************************************************
+git url: https://github.com/2025aa05631-lab/ml_assignment_2
+Files:
+ml_assignment_2/
+|--ml_assignment_2
+|--breast-cancer.csv
+|--app_breastCancer.py
+|--requirements.txt
+|--test_breast_cancer.csv
+|--README.md
+|--model/label_encoder.pkl
+|--model/scaler.pkl
+|--model/logistic_regression.pkl
+|--model/decision_tree.pkl
+|--model/knn.pkl
+|--model/naive_bayes.pkl
+|--model/random_forest.pkl
+|--model/xgboost.pkl
+
+requirements.txt contains:
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+xgboost
+joblib
+tabulate
+
+**************************************************************
 Problem Statement: Breast Cancer Diagnostic Classification
 **************************************************************
 This project implements a Machine Learning pipeline to classify breast cancer tumors as Malignant or Benign using the UCI Breast Cancer Wisconsin (Diagnostic) dataset.
@@ -40,7 +72,7 @@ Training on 30 features and 569 samples...
 Observations on the performance of each model on the breast-cancer dataset:
 **********************************************************************************************
 
-| ML Model Name       |   Observation  
+| ML Model Name       |   Observation about model performance
 |:--------------------|-----------------------------------------------------------------------------
 | Logistic Regression | Strong Linear Separability: Achieved a high accuracy of 96.49% and the highest AUC (0.9960). This indicates that the breast cancer features are highly linearly separable once standardized, making this a reliable baseline model.
 | Decision Tree       | While it performed well (92.11%), it had the lowest accuracy among the group. This suggests that a single tree might be slightly overfitting or missing the subtle patterns that ensemble methods captured.
